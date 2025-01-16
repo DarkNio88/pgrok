@@ -12,7 +12,7 @@ const crashMessage = `panic: %v
 Oh noes! pgrok crashed!
 
 Please submit the stack trace and any relevant information to:
-github.com/jerson/pgrok/issues`
+github.com/DarkNio88/pgrok/issues`
 
 func MakePanicTrace(err interface{}) string {
 	stackBuf := make([]byte, 4096)
